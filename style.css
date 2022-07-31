@@ -1,0 +1,197 @@
+* {
+  font-family: "Roboto", sans-serif;
+
+  /* font-weight: bold; */
+  transition: 1.5s;
+}
+body {
+  background-repeat: no-repeat;
+  background-image: url("Images/Black_jack_table.jpg");
+  /* background-color: rgb(0, 118, 58); */
+}
+.hideBackground {
+  background-image: url("Images/startWallpaper.jpg");
+}
+.hideView {
+  display: none;
+}
+/* .image_view {
+  margin-left: 550px;
+  margin-top: 240px;
+  height: 100px;
+  width: 500px;
+}
+ */
+
+.cardImages {
+  height: 200px;
+  padding: 4px;
+}
+.image_div {
+  margin-top: 40px;
+  margin-left: 900px;
+}
+.imageSet {
+  border: 4px solid rgb(190, 170, 73);
+  padding: 10px;
+}
+.user_image_div {
+  margin-top: 180px;
+  margin-left: 900px;
+}
+
+.names {
+  /* position: re; */
+  margin-left: 110px;
+  color: white;
+}
+/* BUTTONS */
+/* .buttonList {
+} */
+.btns {
+  margin-left: 1600px;
+  font-size: x-large;
+  height: auto;
+  width: 170px;
+  background-color: black;
+  display: block;
+  margin-top: 20px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.greenBtn {
+  border: 3px solid rgb(26, 196, 116);
+  color: rgb(26, 196, 116);
+}
+
+.yellowBtn {
+  border: 3px solid rgb(250, 178, 34);
+  color: rgb(250, 178, 34);
+}
+
+.redBtn {
+  border: 3px solid rgb(250, 52, 34);
+  color: rgb(250, 52, 34);
+}
+
+.btns:hover {
+  border: 3px solid white;
+  color: white;
+}
+.inbuttons {
+  background-color: rgb(234, 59, 28); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 850px;
+  margin-left: 550px;
+  padding-left: 350px;
+  padding-right: 350px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Century Gothic";
+  border-radius: 50px;
+}
+.inbuttons:hover {
+  color: black;
+  background-color: wheat;
+  transform: scale(1.09);
+  /* transition: 0.5s; */
+}
+.hideBtn {
+  display: none;
+}
+
+/* scores */
+
+.score {
+  /* display: inline; */
+  float: left;
+  margin-top: 80px;
+  margin-left: 450px;
+  position: absolute;
+  /* border: 2px solid black; */
+}
+.scoreImage {
+  position: relative;
+}
+.scoreVal {
+  position: absolute;
+  top: 32px;
+  left: 38px;
+}
+p {
+  font-family: "Space Mono", monospace;
+  font-weight: bolder;
+  color: rgb(240, 35, 8);
+  font-size: 25px;
+  /* color: black; */
+}
+/* imgs:hover {
+    use div tag 
+  transform: scale(1.1);
+} */
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+.mod {
+  position: fixed;
+  top: 40%;
+  left: 39%;
+  width: fit-content;
+  background-color: #f3f3f3;
+
+  padding: 30px 70px 30px 70px;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.5s;
+  border: 2px solid rgb(225, 11, 11);
+}
+
+.modalBtn {
+  background-color: rgb(249, 173, 9); /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 40px 10px 40px;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline;
+  margin: 1px 30px;
+  margin-left: 80px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.modalBtn:hover {
+  color: black;
+  background-color: wheat;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.modal_message {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  text-align: center;
+}
