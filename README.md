@@ -35,8 +35,4 @@ We welcome contributions! If you'd like to improve the game, add new features, o
 3. Create a pull request, explaining the changes you've made and their purpose.
 4. We'll review your pull request and merge it if it's in line with the project's goals.
 
-## License
-
-This project is open-source and available under the iambotcoder. You're welcome to use, modify, and distribute it as you see fit.
-
 ---
